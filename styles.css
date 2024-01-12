@@ -186,7 +186,7 @@ section:nth-child(even) {
   max-width: 100%;
   z-index: 99999;
   padding: 16px;
-  background: rgba(3, 74, 226, 0.613);
+  background: rgba(249, 9, 221, 0.718);
   transform: translateX(-100%);
   transition: transform 0.5s ease;
   box-shadow:0px 3px 10px rgba(255, 255, 255, 0.842) ;
@@ -279,7 +279,9 @@ nav {
   color: #6030b1;
   margin: 0 12px;
   font-weight: bold
+  
 }
+
 
 /* ABOUT ME */
 
@@ -669,7 +671,9 @@ transition: all 1s;
 .con-input>input{
   outline: none;
   border: none;
+  height: 20px;
   font-size: 15px;
+  background-color: #fff;
 
  padding-left: 8px;
 }
@@ -677,6 +681,7 @@ textarea{
   margin-top: 2px;
   outline:none;
   font-size: 15px;
+  background-color: #fff;
   padding: 10px;
   border: 1px solid rgb(188, 182, 182);
 
@@ -969,5 +974,8 @@ display: flex;
   .about-me__img--container{
     width: 100%;
   }
-  
+  .about-head>h4{
+    width: 100%;
+  }
+ 
 }
