@@ -180,13 +180,13 @@ section:nth-child(even) {
 .drawer {
   position: fixed;
   left: 0;
-  top: 0px;
+  top: 68px;
   height:60%;
   width: max-content;
   max-width: 100%;
   z-index: 99999;
   padding: 16px;
-  background: rgba(249, 9, 221, 0.718);
+  background: rgba(8, 8, 6, 0.718);
   transform: translateX(-100%);
   transition: transform 0.5s ease;
   box-shadow:0px 3px 10px rgba(255, 255, 255, 0.842) ;
@@ -310,17 +310,20 @@ nav {
   height: 220px;
   border-radius: 50%;
   overflow: hidden;
-  border: 2px solid rgb(255, 179, 0);
- 
+  border: 3px solid rgba(244, 92, 4, 0.747);
+
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
   margin-bottom: 28px;
 transition: all 1s;
   animation: animate-profile-picture 800ms 200ms backwards;
-  box-shadow: 0px 0px 10px yellow;
+  box-shadow: 3px 3px 10px rgba(225, 255, 0, 0.769);
+  
   &:hover{
     scale: 1.1;
   }
+  
 }
+
 
 @keyframes animate-profile-picture {
   0% {
@@ -338,8 +341,6 @@ transition: all 1s;
   width: 150px;
   margin-top: 25px;
   margin-left: 3px;
- 
-  
 
   
 
@@ -406,7 +407,7 @@ transition: all 1s;
   align-items: center;
 }
 .about-head{
-  max-width: 50%;
+  max-width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -437,7 +438,10 @@ transition: all 1s;
 
 .icon-linkedin>a>img{
   height:60px;
+  mix-blend-mode: color-burn;
   margin-top: 20px;
+  object-fit: contain;
+ 
  }
 .icon-linkedin>a>img:hover{
 
