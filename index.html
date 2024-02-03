@@ -35,31 +35,31 @@
             link__hover-effect--black">About</a>
         </li>
         <li class="nav__link">
-          <a href="#languages" class="
+          <a href="#Skills" class="
             nav__link--anchor
             link__hover-effect
             link__hover-effect--black">Skills</a>
         </li>
         <li class="nav__link">
-          <a href="#projects" class="
+          <a href="#coding" class="
             nav__link--anchor
             link__hover-effect
             link__hover-effect--black">Coding</a>
         </li>
         <li class="nav__link">
-          <a href="#projects" class="
+          <a href="#Project" class="
             nav__link--anchor
             link__hover-effect
             link__hover-effect--black">Project</a>
         </li>
         <li class="nav__link">
-          <a href="#projects" class="
+          <a href="#Experience" class="
             nav__link--anchor
             link__hover-effect
             link__hover-effect--black">Experience</a>
         </li>
         <li class="nav__link">
-          <a href="mailto:email@email.com" class="
+          <a href="#contact" class="
           nav__link--anchor
             link__hover-effect
             link__hover-effect--black">Contact</a>
@@ -75,13 +75,13 @@
       
         <div class="drawer">
           <ul class="nav-list">
-            <li class="nav-list-item"><a href="index.html">HOME </a></li>
-            <li class="nav-list-item"><a href="#About">About </a></li>
-            <li class="nav-list-item"><a href="#Skills">Skills </a></li>
-            <li class="nav-list-item"><a href="#coding">Coding </a></li>
-            <li class="nav-list-item"><a href="#Project">Project</a></li>
-            <li class="nav-list-item"><a href="#Experience">Experience</a></li>
-            <li class="nav-list-item"><a href="#contact">Contact </a></li>
+            <li class="nav-list-item" ><a href="index.html">HOME </a></li>
+            <li class="nav-list-item" onclick="CloseMobileMenu()"><a href="#About">About </a></li>
+            <li class="nav-list-item" onclick="CloseMobileMenu()"><a href="#Skills">Skills </a></li>
+            <li class="nav-list-item" onclick="CloseMobileMenu()"><a href="#coding">Coding </a></li>
+            <li class="nav-list-item" onclick="CloseMobileMenu()"><a href="#Project">Project</a></li>
+            <li class="nav-list-item" onclick="CloseMobileMenu()"><a href="#Experience">Experience</a></li>
+            <li class="nav-list-item" onclick="CloseMobileMenu()"><a href="#contact">Contact </a></li>
           </ul>
           <div class="footer__social--list" style="margin-top: 10px;">
             <a href="https://google.com" target="_blank" class="
@@ -123,15 +123,7 @@
             <strong class="text--purple"> frameworks,</strong>  I am adept at translating complex requirements into efficient and scalable code. My passion for <strong class="text--purple"> problem-solving</strong>  and attention to detail drive me to consistently deliver
             <strong class="text--purple">high-quality software</strong>  products.
           <div class="about-me__links">
-            <!-- <a href="" class="about-me__link">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="" class="about-me__link">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="" class="about-me__link">
-              <i class="far fa-envelope"></i>
-            </a> -->
+           
             <a href="./assets/" target="_blank" class="about-me__link" id="resume-doc" data-aos="fade-up">
            Download Resume   <i class="fas fa-file-pdf" ></i>
             </a>
@@ -139,7 +131,6 @@
         </div>
         <figure class="about-me__img--container" id="About">
           <div class="about-head" data-aos="fade-up">
-          <!-- <img src="./assets/undraw_websites.svg" class="about-me__img" alt=""> -->
           <h2>About Me</h2>
           <h4 >Hi. I'm Mahendra Gawande, nice to meet you.
             Please take a look around.</h4>
@@ -148,7 +139,6 @@
            <p >Passionate problem solver and innovative software developer. I thrive in collaborative environments, leveraging my skills to design and develop cutting-edge software applications. Continuously staying updated with the latest industry trends and best practices. My goal is to create robust and scalable software solutions that drive productivity and exceed client expectations. Let's transform ideas into reality together.</p>
           </div>
           <div class="about-head" data-aos="fade-up" id="coding">
-            <!-- <img src="./assets/undraw_websites.svg" class="about-me__img" alt=""> -->
             <h2>Coding Profile</h2>
             <h4 >Welcome to my coding profile! Throughout my coding journey, I have successfully tackled complex challenges,
               finding innovative solutions to enhance user experiences and meet project objectives.</h4>
@@ -306,7 +296,7 @@
             </div>
           </li>
           <li class="project">
-            <div class="project__wrapper">
+            <div class="project__wrapper" data-aos="fade-up">
               <img src="/assets/clinic img22.png" class="project__img" alt="Car subscription project">
               <div class="project__description">
                 <h3 class="project__description--title">Clinic Website</h3>
@@ -358,7 +348,7 @@
           <h3>Frontend Developer Intern</h3>
         </div>
         <div class="exprp">
-          <h4>6 Months (Aug 2023 - January 2024)</h4>
+          <h4>3 Months (oct 2023 - Dec 2024)</h4>
           <p>As a frontend developer intern at Greviton web technologies Pvt LTD, I collaborated on building responsive and user-friendly web applications. I proficiently translated design mockups into high-quality code using HTML5, CSS3, and JavaScript, with a focus on creating dynamic interfaces with React.js.
              My achievements include developing a reusable React component library and optimizing website performance.</p>
         </div>
@@ -430,6 +420,9 @@
         offset: 300,
         duration: 1000,
     });
+   
+
+
 </script>
   <script src="/app.js/nav.js"></script>
   <script src="/app.js/form.js"></script>
