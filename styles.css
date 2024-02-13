@@ -875,7 +875,32 @@ footer {
   }
 
 }
+/* top btn */
+#myBtn1 {
+  
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+   border: none; 
+  outline: none;
+  border-radius: 50%;
+}
 
+ .btn-0:hover {
+  background-color: #f59b09fb;
+  color: #0e0707;
+  font-size: 25px;
+ box-shadow: 0px 0px 10px rgba(117, 116, 116, 0.584);
+  transform: rotate(-180deg);
+}
+.btn-0{
+  background-color: #f59a09;
+  color: #fff;
+  font-size: 25px;
+ transition: all 0.4s;
+
+}
 /* SMALL PHONES */
 @media screen and (max-width: 600px) {
   nav {
